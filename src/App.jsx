@@ -15,7 +15,7 @@ import Notfound from "./Components/Notfound/Notfound";
 
 let x = createBrowserRouter([
   {
-    path: "",
+    path: "StartFreameWork",
     element: <Layout />,
     children: [
       { index:true , element: <Home /> },
