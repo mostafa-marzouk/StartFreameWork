@@ -19,11 +19,10 @@ export default function Navbar() {
       <div className="bg-[#2c3e50]">
         <div className="navBar flex-wrap items-center flex justify-between p-10">
           <div className="logo w-[40%] text-white md:text-4xl text-[20px] font-bold ">
-            <Link to="StartFreameWork">
+            <Link to="">
               <h1>START FRAMEWORK</h1>
             </Link>
           </div>
-
           <ul className="text-white lg:flex  me-20 gap-8 font-bold  hidden">
             <li>
               <NavLink to="about">ABOUT</NavLink>

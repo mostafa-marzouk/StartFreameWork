@@ -1,4 +1,5 @@
 import React from 'react'
+import Desplay from '../Desplay/Desplay'
 
 export default function Contact() {
   return <>
@@ -15,6 +16,7 @@ export default function Contact() {
       <input type="text" placeholder='userEmail' className='w-[100%] h-12 px-3 placeholder:text-slate-600 outline-none border-b-2' />
         <input type="text" placeholder='userPassword' className='w-[100%] h-12 px-3 placeholder:text-slate-600 outline-none border-b-2' />
         <button className='bg-teal-500 text-white px-4 py-2 rounded-md self-start mt-2'>send Message</button>
+        
     </div>
   </div>
 
